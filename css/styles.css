@@ -1,0 +1,214 @@
+/* @font-face {
+  font-family: 'Monserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+} */
+
+/* gradient example
+section {
+  background-image: linear-gradient(lightgreen, lightblue, pink);
+} */
+
+
+/* #region base / Global базові стилi*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: fafafa;
+  color: #111111;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+
+a {
+  color: currentcolor;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+/* #endregion */
+
+/* #region Common  - Загальні стилі*/
+
+.visually-hidden,
+.read-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.accent {
+  color: #fd9222;;
+}
+
+.socials {
+}
+.socials-item {
+}
+.socials-item-link {
+}
+.social-item-icon {
+}
+.socials-item-icon {
+}
+/* #endregion */
+
+/* #region hero section  - стилі конкретних блоків*/
+.hero {  
+  background: rgba(17, 17, 17, 0.4);
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;/* 34px / 28px% */;
+  letter-spacing: -0.03em;  /* -0.84 / 28px */
+  color: #fff;
+  text-align: left;
+}
+/* #endregion */
+
+/* #region benefits
+/* #endregion */
+
+/* #region made*/
+/* #endregion */
+
+/* #region products*/
+/* #endregion */
+.products {
+}
+
+.products-title {
+}
+
+.products-list {
+}
+
+.products-item {
+  background-color: #fff;
+}
+
+.products-ill {
+}
+
+.prodacts-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.products-type {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.products-btn {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fafafa;
+}
+/* #region topsellers*/
+/* #endregion */
+
+/* #region reviews*/
+/* #endregion */
+
+/* #region footer */
+
+.footer {
+  background-color: #1e1823;;
+}
+
+.footer-slogan {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-caption {
+  font-size: 14px; /* 16px  */
+  font-weight: 500; /* 400 */
+  line-height: 1.29;
+  color: #fff;
+}
+
+.footer-socials {
+}
+
+.footer-contacts {
+}
+
+.footer-contacts-list {
+}
+
+.footer-contacts-item {
+
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus { 
+  color : #fd9222;
+}
+
+.footer-menu {
+
+}
+
+.footer-menu-item {
+}
+
+.footer-menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus { 
+  color : #fd9222;
+}
+
+/* #endregion */
